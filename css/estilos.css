@@ -1,0 +1,234 @@
+body{
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 110%;
+    background-image: url("https://blogs.unitec.mx/hubfs/Blogs_UNITEC/Corp_Samara/cocinando-en-master-chef-receta-de-trufas-de-chocolate-3.jpeg");
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 1.5em;
+  
+}
+h1{
+  font-size: 40px;
+  align-content: center;
+ 
+.bloque1{
+  background-color:rgba(43,43,26,0.8);
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+
+}
+h2{
+  background-color: red;
+}
+
+.catergorias{
+  background-image: url("https://img.freepik.com/foto-gratis/mesa-madera-vacia-pancarta-interior-restaurante-ventana-cristal-borrosa-burlan-fondo-abstracto-pueden-utilizar-exhibir-o-montar-sus-productos_7191-1132.jpg?size=626&ext=jpg");
+  background-size: 100%;
+  height: 100%;
+  
+}
+.catergorias p{
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+.menucategorias{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+h2{
+  font-size: 30;
+  text-align: center;
+}
+.menucategorias{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.footer img{
+    opacity: 0.7;
+    width: 400px; height: 70px;
+}
+.footer P{
+    font-size: 25PX;
+    color: beige;
+    margin-left: 25PX;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgba(43,43,26,0.8);
+}
+ header a {
+    font-size: 20px;
+    color: beige;  
+}
+nav a{
+    margin: 0;
+		padding: 0;
+		list-style: none;
+    padding-right: 20px;    
+}
+.catergorias img{
+  width: 200px;
+  height: 200px;
+  
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color:  rgba(43,43,26,0.8);
+    font-size: 4em;
+}
+.logo img{
+    width: 200px; height: 100px;
+    margin-left: 20px;
+}
+.login {
+    margin:0 auto;
+    max-width:500px;
+  }
+  .login-header {
+    color:#fff;
+    text-align:center;
+    font-size:300%;
+  }
+  
+  .login-form {
+    border:.5px solid #fff;
+    background : rgba(43,43,26,0.8);;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #000;
+  }
+  .login-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:#fff;
+  }
+  .login-form {
+    box-sizing:border-box;
+    padding-top:15px;
+    padding-bottom:10%;
+    margin:5% auto;
+    text-align:center;
+  }
+  .login input[type="text"],
+  .login input[type="password"] {
+    max-width:400px;
+    width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 2em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:10px;
+  }
+  .login-form input[type="button"] {
+    height:30px;
+    width:100px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: slategrey;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+  .sign-up{
+    color:#f2f2f2;
+    margin-left:-70%;
+    cursor:pointer;
+    text-decoration:underline;
+  }
+  .no-access {
+    color:#E86850;
+    margin:20px 0px 20px -57%;
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  .try-again {
+    color:#f2f2f2;
+    text-decoration:underline;
+    cursor:pointer;
+  }
+
+
+  /* css de sandra */
+.contactanos{
+
+    background-image: url(https://blog.hubspot.es/hubfs/Descarga%20de%20fondos%20para%20pa%CC%81ginas%20web.jpg);
+}
+
+.contactanos form{
+    background-color: rgba(189, 229, 255, 0.904);
+   
+}
+.contactanos .header {
+    color: rgba(45, 48, 3, 0.986);
+    font-size: 30px;
+    padding: 10px; 
+}
+
+
+.contactanos .container{
+    opacity: .9;
+  
+    width: 50%;
+    height: 50%;
+}
+
+.bigicon {
+    font-size: 35px;  
+}
+
+.glyphicon  {
+   color:  rgba(45, 48, 5, 0.986) ;
+   font-size: 25px;
+}
+
+.contactanos #boton{
+
+    background-color: rgba(120, 128, 16, 0.986) ;
+}  
+
+/* Codigo css de sandra del registro*/
+
+.fondo{
+  background-image: url("https://image.freepik.com/foto-gratis/diferentes-frutas-hortalizas-frescas-comer-sano-varias-verduras-frescas-organicas-despues-lavado_3236-68.jpg");
+  }
+  .fondo{
+    background-color: chartreuse;
+  }
+  #contenedor{
+  
+      background-color: rgba(31, 32, 2, 0.986);
+      margin-top: 40px;
+      text-align: center;
+      width: 50%;
+      height: 450px;
+  }
+  #form1{
+      
+      height: 300px;
+  }
+  .registro{
+      color:white
+  }
+  
+  #well{
+      background-color:  rgba(31, 32, 2, 0.986);
+  }
+
+
+ 
