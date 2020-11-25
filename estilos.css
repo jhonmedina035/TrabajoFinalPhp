@@ -3,6 +3,10 @@ body{
   background-size: 100%;
   height: 100%;
 }
+body p{
+    font-size: 1.5rem;
+}
+
 h1,h2,h3,p{
     color: seashell;
 }
@@ -18,7 +22,7 @@ h1,h2,h3,p{
 header{
     display: flex;
     justify-content:space-between;
-    background-color:  rgba(43,43,26,0.8);
+    background-color:rgba(43,43,26);
     font-size: 4em;
 }
 header a {
@@ -43,10 +47,14 @@ nav{
     margin-top: 4%;
     display: flex;
     justify-content: center;
+    background-color:  rgba(43,43,26,0.8);
+    padding: 50px;
+    text-align: center;
+    
 }
 .categorias img {
-    width: 70%;
-    height: 70%;
+    width: 15rem;
+    height: 15rem;
 }
 .bloque1{
     text-align: center;
@@ -54,14 +62,30 @@ nav{
     padding: 50px;
     margin-top: 0;
 }
+.paquete_1{
+    padding: 10px;
+}
+/* quien somos */
+.quienSomos{
+    margin-top: 1%;
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg");
+}
 
+.quienSomos p{
+    font-size: 2rem;
+}
 
-
+/* pie de pagina */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgba(43,43,26,0.8);
+}
 
 /* css de sandra */
 .contactanos{
     margin-top: 1%;
-    background-image: url(https://blog.hubspot.es/hubfs/Descarga%20de%20fondos%20para%20pa%CC%81ginas%20web.jpg);
+    background-image: url("https://blog.hubspot.es/hubfs/Descarga%20de%20fondos%20para%20pa%CC%81ginas%20web.jpg");
     background-size: 100%;
     height: 100%;
 }
@@ -76,18 +100,14 @@ nav{
     padding: 10px; 
 }
 .contactanos .container{
-    opacity: .9;
+    opacity: 0.9;
    
     width: 50%;
 }
-.
-}
+
 .bigicon {
     font-size: 35px;  
 }
-
-
-
 
 .contactanos #boton{
 

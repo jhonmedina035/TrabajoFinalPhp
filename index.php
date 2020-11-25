@@ -40,16 +40,14 @@ if (isset($correo) && isset($clave))
 <HEAD>
 <TITLE>Distribuidora JSM</TITLE>
 <!-- Bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 <LINK REL="stylesheet" TYPE="text/css" HREF="estilos.css">
 <script src="https://kit.fontawesome.com/86b890441b.js" crossorigin="anonymous"></script>
-
 </HEAD>
-
 <BODY>
-
- 
 <div class="contenedor_general">
 <div class="content">
 <?PHP
@@ -65,39 +63,76 @@ if (isset($correo) && isset($clave))
                    <img src="img/logo_2.png" >
                 </div>
                 <nav>
-                    <a href="#">Inicio</a>
-                    <a href="#">Servicios</a>
-                    <a href="#">Contactanos</a>
-                    <a href="#">Nosotros</a>
+                    <a href="index.php">Inicio</a>
+                    <a href="#categorias">Categorias</a>
+                    <a href="#contactanos">Contactanos</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="cerrarSesion.php">Cerrar sesion</a>
                 </nav>
             </header>
+            <div class="inicio">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p class="bloque1"> Especias del mundo para ti ! </p>
+                            <img src="img/carrusel_1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <p class="bloque1"> Las verduras mas frescas del campo a tu mesa </p>
+                            <img src="img/carrusel_2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <p class="bloque1"> Utencilios profecionales de la mas alta calidad a un exelente precio </p>
+                            <img src="img/carrusel_3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <p class="bloque1"> todos los electrodomesticos que necesitas para tu cosina a un solo clik </p>
+                            <img src="img/carrusel_4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
             <div class="contenedor">
-            <div class="categorias">
+            <div class="categorias" id="categorias">
             <h2 class="bloque1">Caregoria de produntos</h2>
-            <p class="bloque1">
-                Estamos llevando a cabo un proceso de transformación digital en el que nuestros clientes podrán ofrecer nuevos servicios
-                y alternativas de pago a sus consumidores y encargar mercancía a través de una avanzada plataforma de comercio electrónico.
-            </p>
-             <div class="menucategorias">
-                <div class="bloque1">
+            
+             <div class="menucategorias" >
+                <div class="paquete_1">
                     <h3>Especias</h3>
                     <img src="https://c6f2y5q5.rocketcdn.me/wp-content/uploads/2019/03/mezcla-de-especias-999x640.jpg">
                     <p>La mejor selecion solo para ti</p>
                     <button class="btn btn-primary btn-lg">catalogo</button>
                 </div>
-                <div class="bloque1">
+                <div class="paquete_1">
                     <h3>Fruver</h3>
                     <img src="https://estaticos.miarevista.es/media/cache/1140x_thumb/uploads/images/article/5ea80b695bafe8c012fd5bac/lavarfrutayverdura-ppal.jpg">
                     <p>La mejor selecion solo para ti</p>
                     <button class="btn btn-primary btn-lg">catalogo</button>
                 </div>
-                <div class="bloque1">
+                <div class="paquete_1">
                     <h3>Utencilios</h3>
                     <img src="https://estaticos.miarevista.es/media/cache/760x570_thumb/uploads/images/gallery/59c384135bafe8d9a50055f0/utensilioscocina.jpg">
                     <p>La mejor selecion solo para ti</p>
                     <button class="btn btn-primary btn-lg">catalogo</button>
                 </div>
-                <div class="bloque1">
+                <div class="paquete_1">
                     <h3>Electrodomesticos</h3>
                     <img src="https://image.freepik.com/vector-gratis/conjunto-electrodomesticos-cocina-realista_1284-26013.jpg">
                     <p>La mejor selecion solo para ti</p>
@@ -107,8 +142,10 @@ if (isset($correo) && isset($clave))
             </div>
             </div>
 
-            <div class="quienSomos">
+            <div class="quienSomos bloque1" id="nosotros">
             <h2> ¿ Quien somos ?</h2>
+            <br>
+            <br>
             <p>
                 JSM nace de la necesidad de satisfacer los requerimientos de la industria gastronómica, más específicamente
                 la dotación de restaurantes a nivel de implementos e insumos para la cocina. Las siglas que conforman su nombre
@@ -134,7 +171,7 @@ if (isset($correo) && isset($clave))
             
             </div>
 
-            <div class="contactanos">
+            <div class="contactanos" id="contactanos">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -202,10 +239,7 @@ if (isset($correo) && isset($clave))
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-            <P><a class='btn btn-danger' href='cerrarSesion.php' role='button'>Cerrar Sesión</a></P> 
 </div>
-
-
 <?PHP
 }
 
@@ -223,7 +257,7 @@ if (isset($correo) && isset($clave))
 
    {
 
-      print("<div class='contenedor'>\n");
+      print("<div class='container bloque1'>\n");
 
          print("<h1 CLASS='text-center' > LOGIN </h1>\n");
          print("<P CLASS='text-center'> Debes estar registrado para ingresar </P>\n");
